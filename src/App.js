@@ -28,7 +28,7 @@ function App() {
       setMessages([...messages,newMessage])
     });
 
-    //cleanup function
+    //cleanup function is
     return() => {
     channel.unbind_all();
     channel.unsubscribe();
