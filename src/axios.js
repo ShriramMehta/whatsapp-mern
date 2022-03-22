@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 const instance = axios.create({
-    baseURL : 'http://localhost:9000'
+    baseURL : 'https://floating-everglades-04801.herokuapp.com'
 })
 
 
